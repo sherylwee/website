@@ -45,6 +45,10 @@ Table of Content:
 /* Wide Mobile Layout: 480px */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   line-height: 27px;
   font-size: 14px;
@@ -1013,9 +1017,9 @@ button:focus {
 .single-amenities .amenities-thumb:before {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.2);
   z-index: 999;
-  left: 110%;
+  left: 0;
   top: 0;
   height: 100%;
   width: 130%;
@@ -4343,4 +4347,8 @@ body {
   stroke-dashoffset: 1300;
   stroke-width: 90;
   animation: sheryl 1s linear forwards 1.2s;
+}
+
+#body-link a {
+  color:#777777;
 }
